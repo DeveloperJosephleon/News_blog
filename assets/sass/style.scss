@@ -84,14 +84,12 @@ video {
 }
 
 //fonts variable
-$Angeline_Vintage: "Angeline_Vintage";
 $Montserrat-Bold: "Montserrat-Bold";
 $Roboto-Regular: "Roboto-Regular";
 $Roboto-Italic: "Roboto-Italic";
 $Gabrielle:"Gabrielle";
 
 $fonts-list: (
-  $Angeline_Vintage: "Angeline_Vintage",
   $Montserrat-Bold: "Montserrat-Bold",
   $Roboto-Regular: "Roboto-Regular",
   $Roboto-Italic: "Roboto-Italic",
@@ -171,7 +169,7 @@ header {
   }
   h2.logo {
     font-size: 75px;
-    font-family: $Angeline_Vintage;
+    font-family: $Gabrielle;
     color: #ffffff;
   }
   .nav-fill {
@@ -807,7 +805,7 @@ footer {
   background-image: url(../images/home-bg.png);
   h2.logo {
     font-size: 75px;
-    font-family: $Angeline_Vintage;
+    font-family: $Gabrielle;
     color: #ffffff;
   }
   .nav-fill {

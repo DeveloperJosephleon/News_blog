@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Angeline_Vintage";
-  src: url(../fonts/Angeline_Vintage.ttf);
-}
+
 @font-face {
   font-family: "Montserrat-Bold";
   src: url(../fonts/Montserrat-Bold.ttf);
