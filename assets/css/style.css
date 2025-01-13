@@ -20,6 +20,10 @@
   font-family: "Roboto-Italic";
   src: url(../fonts/Roboto-Italic.ttf);
 }
+@font-face {
+  font-family: "Gabrielle";
+  src: url(../fonts/Gabrielle.ttf);
+}
 body {
   font-family: "Roboto-Regular";
   font-size: 16px;
@@ -63,10 +67,13 @@ header .card a:hover,
 }
 
 header {
-  background-image: url(../images/home-bg.png);
+  background-image: url(../images/home-bg.jpg);
   text-align: center;
   padding: 20px 0;
   padding-bottom: 50px;
+  background-position: top 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header .bg-cover {
   background: rgba(0, 0, 0, 0.7);
@@ -76,7 +83,7 @@ header .input-group input {
 }
 header h2.logo {
   font-size: 75px;
-  font-family: "Angeline_Vintage";
+  font-family: "Gabrielle";
   color: #ffffff;
 }
 header .nav-fill {
@@ -707,11 +714,14 @@ header .change .bar3 {
 }
 
 footer {
-  background-image: url(../images/home-bg.png);
+  background-image: url(../images/home-bg.jpg);
+  background-position: left 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer h2.logo {
   font-size: 75px;
-  font-family: "Angeline_Vintage";
+  font-family: "Gabrielle";
   color: #ffffff;
 }
 footer .nav-fill {
